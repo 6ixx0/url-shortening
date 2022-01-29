@@ -25,6 +25,14 @@ header{
     display: none;
 }
 
+.none{
+    display: none;
+}
+
+a{
+    display: noneco;
+}
+
 .woman{
     max-width: 100%;
 }
