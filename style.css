@@ -30,8 +30,9 @@ header{
 }
 
 a{
-    display: noneg;
+    display: none;
 }
+
 
 .woman{
     max-width: 100%;
