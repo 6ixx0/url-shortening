@@ -13,18 +13,22 @@
 <body>
     <header>
         <img src="/img/logo.svg" alt="logo" class="headerlogo">
-        <nav class="none">
+        <nav class="one">
             <a href="#">Features</a>
             <a href="#">Prices</a>
             <a href="#">Resources</a>
+    
+            <hr>
+            <div class="log">
+                <a href="#">Log In</a>
+                <button class="button1">Sign Up</button>
+               
+            </div>
         </nav>
-        <div class="log">
-            <a href="#">Log In</a>
-            <button class="button1">Sign Up</button>
-        </div>
-        <span>
-            <img src="/img/icon-hamburger.svg" id="harmburger">
-            <img src="/img/times-solid.svg" class="times">
+        <span class="both">
+            <img src="/img/icon-hamburger.svg" id="harmburger" onclick="myFunction()">
+            <img src="/img/times-solid.svg" id="times">
+            
         </span>
     </header>
     <section class="section1">
@@ -113,6 +117,8 @@
         </div>
 
     </footer>
+
+    <script src="/short.js"></script>
 </body>
 
 </html>

@@ -20,18 +20,75 @@ header{
     max-width:  50%;
 }
 
-
-.times , .button1{
+.one{
+    background-color: hsl(255, 11%, 22%);
+    border-radius: 6px;
+    height: 350px;
     display: none;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+   width: 90%;
+   position: absolute;
+   top: 50px;
+   color: #fff;
+   
+   
 }
 
-.none{
+#times{
     display: none;
+    max-width: 40%;
+}
+
+.both{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+#harmburger{
+    margin-right: 15px;
+    /* margin-right: 15px;
+    width: 50%;
+    height: 15px; */
+}
+
+
+.log{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 a{
-    display: none;
+    color: #fff;
+    font-weight: bolder;
+    /* text-align: center; */
+    display: block;
+    padding: 15px;
 }
+
+a:hover{
+    transform: scaleY(1.2);
+    color: white;
+}
+
+
+
+
+.button1{
+    display: block;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color:hsl(180, 66%, 49%) ;
+    color: #fff;
+    margin-top: 15px;
+    width:  100%;
+    height: 50px;
+}
+
+
 
 
 .woman{
@@ -41,6 +98,7 @@ a{
   /* SECTION 1 */
 
 .section1{
+    margin-top: 90px;
     padding: 20px 30px;
     text-align: center;
     height: 450px;
@@ -230,6 +288,14 @@ h5{
         border-radius: 8px;
         background-color:hsl(180, 66%, 49%) ;
         color: #fff;
+    }
+
+    .one a{
+        display: inline-block;
+    }
+
+    .log{
+        display: inline-block;
     }
 
 
